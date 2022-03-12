@@ -3,10 +3,10 @@
     <head>
         <title>login</title>
     </head>
-    <body>
-        <form method="POST" action = "../controllers/loginCheck.php">
-        <fieldset><legend>Sign in</legend>
-            <table>
+    <body style="background-color:orange">
+        <center><form method="POST" action = "../controllers/loginCheck.php">
+        <fieldset><legend align="center"><b><h1>Sign in</h1></b></legend>
+        <table>
                 <tr>
                     <td>Username</td>
                     <td>
@@ -29,6 +29,6 @@
                 </tr>
             </table>
             </fieldset>
-        </form>
+        </form></center>
     </body>
 </html>

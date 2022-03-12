@@ -2,10 +2,10 @@
 <head>
     <title>Signup</title>
 </head>
-<body>
-    <form method="POST" action = "../controllers/regCheck.php">
-    <fieldset><legend>REGISTRATION FORM</legend>
-    <a href="login.php">Back</a>
+<body style="background-color:#53ede3">
+    <center><form method="POST" action = "../controllers/regCheck.php" enctype="multipart/form-data">
+    <fieldset><legend align="center"><b><h1>Registration form</h1></b></legend>
+    
             <table>
                 <tr>
                     <td>ID:</td>
@@ -56,13 +56,18 @@
                     </textarea></td>
                 </tr>
                 <tr>
+                    <td>Image:</td>
+                    <td><input type="file" name="myfile"></td>
+                </tr>
+                <tr>
                     <td></td>
                     <td>
                         <input type="submit" name="submit" value="submit">
+                        <a href="login.php">Back</a>
                     </td>
                 </tr>
             </table>
             </fieldset>
-        </form>
+        </form></center>
 </body>
 </html>

@@ -5,12 +5,13 @@
 <head>
     <title>Signup</title>
 </head>
-<body>
-    <form method="POST" action = "../controllers/regCheck.php">
-        <a href="home.php">Back</a>
-        <a href="../controllers/logout.php">logout</a>
+<body style="background-color:#96ed53">
+    <center><form method="POST" action = "../controllers/regCheck.php">
+        
+        
         <fieldset>
-            <legend>Create New User</legend>
+            <legend align="center"><b><h1>Create new user</h1></b></legend>
+            <h5 align='right'><a href="../controllers/logout.php">logout</a></h5>
             <table>
                 <tr>
                     <td>Username</td>
@@ -34,10 +35,11 @@
                     <td></td>
                     <td>
                         <input type="submit" name="submit" value="submit">
+                        <a href="home.php">Back</a>
                     </td>
                 </tr>
             </table>
             </fieldset>
-        </form>
+        </form></center>
 </body>
 </html>

@@ -18,11 +18,11 @@
 <head>
     <title>Edit user</title>
 </head>
-<body>
+<body style="background-color:#96ed53">
     <a href="home.php">Back</a>
     <a href="../controllers/logout.php">logout</a>
-    <form method="POST" action = "../controllers/regCheck.php">
-        <fieldset><legend>EDIT USER</legend>
+    <center><form method="POST" action = "../controllers/regCheck.php">
+        <fieldset><legend align="center"><b><h1>Edit user</h1></b></legend>
             <table>
                 <tr>
                     <td>Username</td>
@@ -50,6 +50,6 @@
                 </tr>
             </table>
             </fieldset>
-        </form>
+        </form></center>
 </body>
 </html>

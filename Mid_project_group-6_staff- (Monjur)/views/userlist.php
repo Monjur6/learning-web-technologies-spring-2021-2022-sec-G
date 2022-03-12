@@ -7,12 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User list</title>
 </head>
-<body>
-<fieldset><legend>USER LIST</legend>
-    <a href="home.php">Back</a>
-    <a href="../controllers/logout.php">logout</a>
+<body style="background-color:#c7c49f">
+<fieldset><legend align="center"><b><h1>Customer list</h1></b></legend>
+    <table align='right'>
+        <tr>
+            <td>
+            <a href="home.php">Back</a>
+            </td>
+            <td></td><td></td>
+            <td>
+            <a href="../controllers/logout.php">logout</a>
+            </td>
+        </tr>
+    </table>
+    
     <br><br>
-    <table border="1">
+    <table border="1" align="center">
         <tr>
             <th>ID</th>
             <th>NAME</th>
