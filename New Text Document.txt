@@ -1,0 +1,116 @@
+Travel & Tourism 
+................
+
+Admin
+.....
+[
+Features:
+.........
+
+1. Add Delete Update Customer
+2. Add Delete Update Manager
+3. Add Delete Update Staff
+4. View employee attendance
+5. Access to review booking reports
+6. Access to maintain tour schedules
+7. Access to customer reports and reviews
+8. Provide task via message
+9. Upload notice for all employees
+10. Upload news post for customers 
+
+Table: 
+......
+
+1. Add Delete Update Customer
+2. Add Delete Update Manager
+3. Add Delete Update Staff
+4. View employee attendance
+5. Access to review booking reports
+6. Access to maintain tour schedules
+7. Access to customer reports and reviews
+8. Provide task via message
+9. Upload notice for all employees
+10. Upload news post for customers 
+
+
+
+
+Customer Features
+.................
+1.To access CustomerGallery
+2.To do Registration
+3.To EditInfo
+4.To do Booking
+5.To do CustomerPayment
+6.To do customerReview
+7.To do AddDeleteUpdate
+8.To Send Message
+9.To access Notification
+10.To check Packages
+
+Customer Tables 
+...............
+1.CustomerGallery
+2.Registration
+3.EditInfo
+4.Booking
+5.CustomerPayment
+6.customerReview
+7.AddDeleteUpdate
+8.Send Message
+9.Notification
+10.Packages
+
+
+Manager's Features and tables
+...................................
+
+Fatures:
+'''''''''''''''''
+1)Access to Staff Information(add,delete,modify)
+2)Access to Customers Informations(add,delete,modify)
+3)Available Deals And Offers(add,delete,modify)
+4)Access to Booking Information(modify)
+5)Booking Rejection(Delete)
+6)Sales Account(view)
+7)Notification System(new notification, View)
+8)Booking History(view)
+9)Contact with Admin( send Message)
+10)Reports and reviews(view)
+
+Tables:
+'''''''''''''''
+1)Staff Information
+2)Customer Information
+3)Deals and Ofers
+4)Booking
+5)Sales Account
+6)Notification
+7)Message(Contact with admin)
+8)Report and Reviews
+
+       Staff
+Features
+.........
+can update their information (modify)
+can see the customer review or comment and reply it(edit,delete)
+can have all kind of customer transaction with our company(view)
+can see customer information(view)
+can contact customer(send message)
+can update customer info(edit,delete,modify)
+can view or confirm customers booking(view,edit,delete)
+can have a notification system(view)
+can see the galary through his profile(view)
+can see suctomer history with our company(view)
+
+Tables
+.........
+staff information
+money transaction
+
+notification
+customer review/reply
+customer information
+massege
+booking
+
